@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
+    <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand-icon" href="#">
+            <i class="fa-solid fa-code"></i>
+        </a>
         <a class="navbar-brand" href="#">Gage Hill</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"    aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,24 +40,156 @@
         </div>
     </nav>
 
+    <!--HOME-->
     <div id="home">
         <!-- Home content here -->
     </div>
 
+    <!--ABOUT-->
     <div id="about">
         <!-- About content here -->
     </div>
 
+    <!--PORTFOLIO-->
     <div id="portfolio" class="carousel slide" data-ride="carousel">
-        <!-- Projects here -->
+        <div class="carousel-inner">
+    
+            <div class="carousel-item active">
+                <div class="card">
+                    <img class="card-img-top" src="image1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 1</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 4</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 5</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 6</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 7</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 8</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image9.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 9</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="card-img-top" src="image10.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Description for Project 10</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#portfolio" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#portfolio" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
+    <!--CONTACT-->
     <div id="contact">
-        <!-- Contact form here -->
+        <form>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" required>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" required>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputTextArea" class="col-sm-2 col-form-label">Text</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="inputTextArea" maxlength="1000" rows="3"></textarea>
+              <small id="charCount" class="form-text text-muted">0/1000 characters</small>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">submit</button>
+        </form>
     </div>
 
-    <footer>
-        <!-- Icons here -->
+    <footer class="footer bg-light mt-5">
+        <div class="container text-center py-3">
+            <a href="https://www.linkedin.com" target="_blank" class="mx-2">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="mx-2">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
