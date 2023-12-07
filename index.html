@@ -24,11 +24,32 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                            <a class="dropdown-item" href="#aboutMe">About Me</a>
+                            <a class="dropdown-item" href="#skills">Skills</a>
+                            <a class="dropdown-item" href="#certificates">Certificates</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
+                            <a class="dropdown-item" href="#project1">Project 1</a>
+                            <a class="dropdown-item" href="#project2">Project 2</a>
+                            <a class="dropdown-item" href="#project3">Project 3</a>
+                            <a class="dropdown-item" href="#project4">Project 4</a>
+                            <a class="dropdown-item" href="#project5">Project 5</a>
+                            <a class="dropdown-item" href="#project6">Project 6</a>
+                            <a class="dropdown-item" href="#project7">Project 7</a>
+                            <a class="dropdown-item" href="#project8">Project 8</a>
+                            <a class="dropdown-item" href="#project9">Project 9</a>
+                            <a class="dropdown-item" href="#project10">Project 10</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
@@ -43,12 +64,12 @@
             </div>
         </nav>
     </header>
-    
+
     <main>  
         <!--HOME-->
         <section id="home">
             <h2>Home</h2>
-            <!-- Home content here -->
+            <!-- Home content here, this will be a rotating 3d cube in the background -->
         </section>
 
         <!--ABOUT-->
@@ -60,37 +81,37 @@
                 
                 <h3>Skills</h3>
                 <div class="skill">
-                    <i class="fa fa-code"></i> Java
+                    <i class="fab fa-java"></i> Java
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 55%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <i class="fab fa-js-square"></i> JavaScript
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 35%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <i class="fab fa-html5"></i> HTML5
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
                     </div>
                 </div>
-
+                
                 <div class="skill">
-                    <i class="fa fa-code"></i> JavaScript
+                    <i class="fab fa-css3-alt"></i> CSS3
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
+                        <div class="progress-bar" role="progressbar" style="width: 65%;"></div>
                     </div>
                 </div>
-
+                
                 <div class="skill">
-                    <i class="fa fa-code"></i> HTML5
+                    <i class="fab fa-git-alt"></i> Git
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <i class="fa fa-code"></i> CSS3
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <i class="fa fa-code"></i> Git
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
+                        <div class="progress-bar" role="progressbar" style="width: 55%;"></div>
                     </div>
                 </div>
         
@@ -99,7 +120,7 @@
                     <!-- Certification Card 1 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal1">
-                            <img class="card-img-top" src="path-to-certification-image.jpg" alt="Certification 1">
+                            <img class="card-img-top" src="" alt="Certification 1">
                             <div class="card-body">
                                 <h5 class="card-title">Certification Title 1</h5>
                                 <p class="card-text">Brief description</p>
@@ -109,9 +130,9 @@
                     <!-- Certification Card 2 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal2">
-                            <img class="card-img-top" src="path-to-certification-image.jpg" alt="Certification 1">
+                            <img class="card-img-top" src="" alt="Certification 2">
                             <div class="card-body">
-                                <h5 class="card-title">Certification Title 1</h5>
+                                <h5 class="card-title">Certification Title 2</h5>
                                 <p class="card-text">Brief description</p>
                             </div>
                         </div>
@@ -119,9 +140,9 @@
                     <!-- Certification Card 3 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal3">
-                            <img class="card-img-top" src="path-to-certification-image.jpg" alt="Certification 1">
+                            <img class="card-img-top" src="" alt="Certification 3">
                             <div class="card-body">
-                                <h5 class="card-title">Certification Title 1</h5>
+                                <h5 class="card-title">Certification Title 3</h5>
                                 <p class="card-text">Brief description</p>
                             </div>
                         </div>
@@ -129,31 +150,24 @@
                     <!-- Certification Card 4 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal4">
-                            <img class="card-img-top" src="path-to-certification-image.jpg" alt="Certification 1">
+                            <img class="card-img-top" src="" alt="Certification 4">
                             <div class="card-body">
-                                <h5 class="card-title">Certification Title 1</h5>
+                                <h5 class="card-title">Certification Title 4</h5>
+                                <p class="card-text">Brief description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Certification Card 5 -->
+                    <div class="col-md-4">
+                        <div class="card" data-toggle="modal" data-target="#certificationModal5">
+                            <img class="card-img-top" src="" alt="Certification 5">
+                            <div class="card-body">
+                                <h5 class="card-title">Certification Title 5</h5>
                                 <p class="card-text">Brief description</p>
                             </div>
                         </div>
                     </div>
                 
-                    <!-- Certification Modal 1 -->
-                    <div class="modal fade" id="certificationModal1" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel1" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 1</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    Detailed description of Certification 1.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <!-- Certification Modal 1 -->
                     <div class="modal fade" id="certificationModal1" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel1" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -172,51 +186,68 @@
                     </div>
 
                     <!-- Certification Modal 2 -->
-                    <div class="modal fade" id="certificationModal1" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel1" aria-hidden="true">
+                    <div class="modal fade" id="certificationModal2" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel2" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 1</h5>
+                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 2</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    Detailed description of Certification 1.
+                                    Detailed description of Certification 2.
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Certification Modal 3 -->
-                    <div class="modal fade" id="certificationModal1" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel1" aria-hidden="true">
+                    <div class="modal fade" id="certificationModal3" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel3" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 1</h5>
+                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 3</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    Detailed description of Certification 1.
+                                    Detailed description of Certification 3.
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Certification Modal 4 -->
-                    <div class="modal fade" id="certificationModal1" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel1" aria-hidden="true">
+                    <div class="modal fade" id="certificationModal4" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel4" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 1</h5>
+                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 4</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    Detailed description of Certification 1.
+                                    Detailed description of Certification 4.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certification Modal 5 -->
+                    <div class="modal fade" id="certificationModal5" tabindex="-1" role="dialog" aria-labelledby="certificationModalLabel5" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="certificationModalLabel1">Certification Title 5</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Detailed description of Certification 5.
                                 </div>
                             </div>
                         </div>
@@ -325,6 +356,7 @@
             <h2>Blog</h2>
             <div class="container">
                 <div class="row">
+
                     <!-- Blog Post 1 -->
                     <div class="col-md-4">
                         <div class="card">
@@ -348,17 +380,19 @@
                             </div>
                         </div>
                     </div>
-        
+                    
+                    <!--Blog Post 3-->
                     <div class="col-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="path-to-blog-image-1.jpg" alt="Blog Post 1 Image">
+                            <img class="card-img-top" src="path-to-blog-image-1.jpg" alt="Blog Post 3 Image">
                             <div class="card-body">
-                                <h5 class="card-title">Blog Post Title 1</h5>
+                                <h5 class="card-title">Blog Post Title 3</h5>
                                 <p class="card-text">Short description or excerpt of the blog post.</p>
-                                <a href="link-to-full-blog-post-1" class="btn btn-primary">Read More</a>
+                                <a href="link-to-full-blog-post-3" class="btn btn-primary">Read More</a>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -457,6 +491,13 @@
         </section>
     </main>
 
+    <!-- Back to Top Button -->
+    <div class="text-center py-3">
+        <a href="#home" class="back-to-top">
+            <i class="fas fa-chevron-up fa-2x"></i>
+        </a>
+    </div>
+    
     <footer class="footer bg-light mt-5">
         <div class="container text-center py-3">
             <a href="https://www.linkedin.com" target="_blank" class="mx-2">
