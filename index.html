@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -11,7 +11,7 @@
 <body>
     <header>
         <!--NAV-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand-icon" href="#home">
                 <i class="fa-solid fa-code"></i>
             </a>
@@ -107,6 +107,13 @@
                         <div class="progress-bar" role="progressbar" style="width: 65%;"></div>
                     </div>
                 </div>
+
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i> Bootstrap v5.3
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 55%;"></div>
+                    </div>
+                </div>
                 
                 <div class="skill">
                     <i class="fab fa-git-alt"></i> Git
@@ -117,6 +124,7 @@
         
                 <h3>Certifications</h3>
                 <div class="row">
+
                     <!-- Certification Card 1 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal1">
@@ -127,6 +135,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Certification Card 2 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal2">
@@ -137,6 +146,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Certification Card 3 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal3">
@@ -147,6 +157,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Certification Card 4 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal4">
@@ -157,6 +168,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Certification Card 5 -->
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#certificationModal5">
@@ -252,6 +264,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -260,6 +273,8 @@
         <section id="portfolio" class="carousel slide" data-ride="carousel">
             <h2>Portfolio</h2>
             <div class="carousel-inner">
+
+                    <!--PROJECT 1-->
                     <div class="carousel-item active">
                         <div class="card">
                             <img class="card-img-top" src="image1.jpg" alt="Card image cap">
@@ -268,6 +283,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 2-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image2.jpg" alt="Card image cap">
@@ -276,6 +293,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 3-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image3.jpg" alt="Card image cap">
@@ -284,6 +303,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 4-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image4.jpg" alt="Card image cap">
@@ -292,6 +313,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 5-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image5.jpg" alt="Card image cap">
@@ -300,6 +323,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 6-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image6.jpg" alt="Card image cap">
@@ -308,6 +333,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 7-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image7.jpg" alt="Card image cap">
@@ -316,6 +343,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 8-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image8.jpg" alt="Card image cap">
@@ -324,6 +353,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 9-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image9.jpg" alt="Card image cap">
@@ -332,6 +363,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--PROJECT 10-->
                     <div class="carousel-item">
                         <div class="card">
                             <img class="card-img-top" src="image10.jpg" alt="Card image cap">
@@ -340,15 +373,19 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
+
                 <a class="carousel-control-prev" href="#portfolio" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
+
                 <a class="carousel-control-next" href="#portfolio" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+
             </section>
 
         <!--BLOG-->
@@ -392,7 +429,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>

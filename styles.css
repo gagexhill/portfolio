@@ -1,8 +1,14 @@
 /*GLOBAL*/
 
 /*NAV*/
+.navbar.fixed-top {
+    z-index: 1020;
+}
 
 /*BODY*/
+body {
+    padding-top: 80px;
+}
 
 /*HOME*/
 
