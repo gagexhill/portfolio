@@ -21,6 +21,9 @@ body {
 /*CONTACT*/
 
 /*CONTACT*/
+.btn btn-primary {
+   justify-content: right; 
+}
 
 /*FOOTER*/
 .back-to-top {
